@@ -1,0 +1,81 @@
+.dropdown .dropdown-menu{
+    display: block;
+    opacity: 0;
+
+    -moz-transition:    all 1500ms ease;
+    -webkit-transition: all 1500ms ease;
+    -o-transition:      all 1500ms ease;
+    -ms-transition:     all 1500ms ease;
+    transition:         all 1500ms ease;
+
+
+}
+.dropdown:hover .dropdown-menu {
+    display: block;
+    opacity: 0.8;
+    color:#0;
+}
+
+.dropdown-menu li>a{
+    color:black; 
+    padding-top:9px;
+    padding-bottom:9px;
+}
+
+
+   .dropdown-menu>li{
+    padding:10px; 
+    border-bottom:0px solid white;
+    border-left:0px solid white;
+    border-right:0px solid white; 
+    padding-left:0px;
+    padding-right:0px;
+    
+}
+   .dropdown-menu li>a:hover{
+    background:#c8c8c8; 
+}
+
+    .dropdown{
+        opacity:0.8;
+        position:relative;
+        left:10px;
+        top:10px;
+}
+
+
+
+
+button{
+	size:100px;
+}
+
+body{
+	background-image:url("../../images/abstract1.jpg");
+	background-size: 100%;
+	background-repeat:no-repeat;
+    
+
+}
+
+
+h1{
+    font-size:72pt;
+    font-weight: 100;
+    position:relative;
+    top:250px;
+    color:#ffffff;
+    font-family: "Helvetica";
+
+     -webkit-transition: all 1s ease-in-out;
+  -moz-transition: all 1s ease-in-out;
+  -o-transition: all 1s ease-in-out;
+  transition: all 1s ease-in-out;
+}
+
+
+
+#image1{
+    height:30px;
+    width:30px;
+}

@@ -1,0 +1,22 @@
+#navigate {
+    width: 100%;
+    background-color: #000000;
+    margin-top: 0px;
+}
+
+#navigate li {
+    display: inline;  
+    border-right: 5px;
+    border-left: 5px;
+    border-style: solid;
+}
+
+#navigate li :hover {
+    opacity: 0.6;   
+}
+
+#navigate li a {
+    color: white;
+    margin-left:5%;
+    margin-right:5%;
+}

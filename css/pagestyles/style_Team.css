@@ -54,7 +54,7 @@ button{
 }
 
 body{
-    background-image:url("../../images/brick.jpg");
+    background-image:url("../images/backgroundimages/brick.jpg");
     background-size: 100%;
     background-repeat:repeat;
 

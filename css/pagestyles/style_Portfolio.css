@@ -149,3 +149,11 @@ img{
     height:50px;
     opacity:0.7;
 }
+
+#bar{
+    background:#ffffff;
+    opacity:0.60;
+    color:#000000;
+    padding-top:20px;
+    padding-bottom:20px;
+}

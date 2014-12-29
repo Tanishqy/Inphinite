@@ -71,9 +71,10 @@ h1{
     font-size:72pt;
     font-weight: 100;
     position:relative;
-    top:90px;
+    top:40px;
     color:#ffffff;
     font-family:"Helvetica";
+    opacity:1;
 }
 
 h2{
@@ -151,13 +152,16 @@ li{
 }
 
 #bar{
-    background:#ffffff;
-    opacity:0.60;
+    opacity:1;
     padding-top:20px;
     padding-bottom:20px;
-    color:#000000;
+    color:#ffffff;
 }
 
+#bar1{
+    background:#000000;
+    opacity:0.60;
+}
 #para1{
     position:relative;
     width:40%;
@@ -196,4 +200,9 @@ li{
     border-radius:15px;
     padding-top:10px;
     padding-bottom:10px;
+}
+
+#wholepage{
+    background:#ffffff;
+    opacity:0.70;
 }

@@ -12,8 +12,8 @@
 }
 .dropdown:hover .dropdown-menu {
     display: block;
-    opacity: 1;
-
+    opacity: 0.8;
+    color:#0;
 }
 
 .dropdown-menu li>a{
@@ -42,7 +42,6 @@
         position:relative;
         left:10px;
         top:10px;
-        z-index: 10000;
 }
 
 
@@ -53,7 +52,7 @@ button{
 }
 
 body{
-	background-image:url("../../images/911.jpg");
+	background-image:url("../../images/city.jpg");
 	background-size: 100%;
 	background-repeat:no-repeat;
     
@@ -62,16 +61,39 @@ body{
 
 
 h1{
-    font-size:72pt;
+    font-size:54pt;
     font-weight: 100;
     position:relative;
-    top:220px;
+    top:50px;
     color:#ffffff;
     font-family: "Helvetica";
+
+     -webkit-transition: all 1s ease-in-out;
+  -moz-transition: all 1s ease-in-out;
+  -o-transition: all 1s ease-in-out;
+  transition: all 1s ease-in-out;
 }
 
+.form-group{
+    width:20%;
+}
 
+.form-group1{
+    width:20%;
+}
 
+form{
+    position:relative;
+    top:120px;
+}
+
+label{
+    color:#ffffff;
+}
+
+input{
+    color:#ffffff;
+}
 #image1{
     height:70px;
     width:210px;

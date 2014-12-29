@@ -161,6 +161,16 @@ li{
 #para1{
     position:relative;
     width:40%;
-    right:28%;
+    left:4%;
     top:-130px;
+}
+
+#image2{
+    position:relative;
+    width:40%;
+    left:55%;
+    top:-200px;
+    background:#ffffff;
+    opacity:0.70;
+    border-radius:15px;
 }

@@ -53,7 +53,7 @@ button{
 }
 
 body{
-    background-image:url("../../images/backgroundimages/Building.jpg");
+    background-image:url("../../images/backgroundimages/brick2.jpg");
     background-size: 100%;
     background-repeat:repeat;
 
@@ -152,33 +152,36 @@ li{
 }
 
 #bar{
-    opacity:1;
+    opacity:0.60;
     padding-top:20px;
     padding-bottom:20px;
-    color:#ffffff;
+    background:#000000;
 }
 
-#bar1{
-    background:#000000;
-    opacity:0.60;
+#bar2{
+    display:inline block;
+    background-color: rgba(0,0,0,0.5);
+    position:relative;
+    top:-250px;
+    padding-top:10px;
+    padding-bottom: 10px;
 }
+
 #para1{
     position:relative;
     width:40%;
     left:4%;
-    top:-200px;
+    line-height: 300%;
 }
 
 #image2{
     position:relative;
-    width:40%;
+    width:30%;
     left:55%;
-    top:-400px;
-    background:#ffffff;
-    opacity:0.70;
-    border-radius:15px;
-    padding-top:10px;
-    padding-bottom:10px;
+    top:-200px;
+    opacity:1;
+
+
 }
 
 
@@ -200,6 +203,11 @@ li{
     border-radius:15px;
     padding-top:10px;
     padding-bottom:10px;
+}
+
+#imagegeneral{
+    border: solid 1px #000000;
+    border-radius:50%;
 }
 
 #wholepage{

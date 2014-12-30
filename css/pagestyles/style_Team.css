@@ -53,16 +53,16 @@ button{
 }
 
 body{
-    background-image:url("../../images/backgroundimages/brick2.jpg");
+    background:#ffffff;
     background-size: 100%;
     background-repeat:repeat;
 
 }
 
 p{
-    color:#ffffff;
+    color:#000000;
     font-size: 18pt;
-    text-shadow: 1px 1px 1px #000000;
+    text-shadow: 0px 0px 0px #000000;
 }
 
 
@@ -158,59 +158,37 @@ li{
     background:#000000;
 }
 
-#bar2{
-    display:inline block;
-    background-color: rgba(0,0,0,0.5);
-    position:relative;
-    top:-250px;
-    padding-top:10px;
-    padding-bottom: 10px;
-}
-
-#para1{
-    position:relative;
-    width:40%;
-    left:4%;
-    line-height: 300%;
-}
-
-#image2{
-    position:relative;
-    width:30%;
-    left:55%;
-    top:-200px;
-    opacity:1;
 
 
-}
-
-
-#para2{
-    position:relative;
-    width:40%;
-    left:55%;
-    top:-200px;
-}
-
-
-#image3{
-    position:relative;
-    width:40%;
-    left:4%;
-    top:-400px;
-    background:#ffffff;
-    opacity:0.70;
-    border-radius:15px;
-    padding-top:10px;
-    padding-bottom:10px;
-}
 
 #imagegeneral{
-    border: solid 1px #000000;
     border-radius:50%;
 }
 
-#wholepage{
-    background:#ffffff;
-    opacity:0.70;
+#everything{
+    display:inline-block;
+}
+
+#person{
+    display:inline-block;
+    position: relative;
+}
+ 
+.float-left{
+    float:left;
+    width:50%;
+}
+
+
+
+
+#images{
+    position:relative;
+    width:50%;
+}
+
+#paragraph{
+    position:relative;
+    width:50%;
+
 }

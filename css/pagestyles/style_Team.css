@@ -12,14 +12,15 @@
 }
 .dropdown:hover .dropdown-menu {
     display: block;
-    opacity: 0.8;
-    color:#0;
+    opacity: 0.80;
+    color:#000000;
 }
 
 .dropdown-menu li>a{
     color:black; 
     padding-top:9px;
     padding-bottom:9px;
+    width:246.5px;
 }
 
 
@@ -43,9 +44,7 @@
 
     }
 
-    .dropdown .dropdown-menu{
-
-    }
+    .dropdown .dropdown-menu{}
 
 
 
@@ -54,20 +53,28 @@ button{
 }
 
 body{
-    background-image:url("../images/backgroundimages/brick.jpg");
+    background-image:url("../../images/backgroundimages/Building.jpg");
     background-size: 100%;
     background-repeat:repeat;
 
 }
+
+p{
+    color:#ffffff;
+    font-size: 18pt;
+    text-shadow: 1px 1px 1px #000000;
+}
+
 
 
 h1{
     font-size:72pt;
     font-weight: 100;
     position:relative;
-    top:90px;
+    top:40px;
     color:#ffffff;
     font-family:"Helvetica";
+    opacity:1;
 }
 
 h2{
@@ -76,6 +83,8 @@ h2{
     font-size:54pt;
     padding-top:20px;
     position:relative;
+    color:#505050;
+
     
 }
 
@@ -90,9 +99,13 @@ ul{
 }
 
 
+li{
+    z-index:1000;
+}
+
 #image1{
-    height:30px;
-    width:30px;
+    height:70px;
+    width:210px;
 }
 
 #slide{
@@ -120,7 +133,7 @@ ul{
 #containerx{
     display:inline-block;
     width:33%;
-    padding:2px;
+    padding:40px;
     color:#000000;
 }
 
@@ -129,10 +142,67 @@ ul{
     position:relative;
     bottom:0px;
     padding-top:10px;
+    color:#909090;
 }
 
 #spectrum{
     width:1500px;
     height:50px;
     opacity:0.7;
+}
+
+#bar{
+    opacity:1;
+    padding-top:20px;
+    padding-bottom:20px;
+    color:#ffffff;
+}
+
+#bar1{
+    background:#000000;
+    opacity:0.60;
+}
+#para1{
+    position:relative;
+    width:40%;
+    left:4%;
+    top:-200px;
+}
+
+#image2{
+    position:relative;
+    width:40%;
+    left:55%;
+    top:-400px;
+    background:#ffffff;
+    opacity:0.70;
+    border-radius:15px;
+    padding-top:10px;
+    padding-bottom:10px;
+}
+
+
+#para2{
+    position:relative;
+    width:40%;
+    left:55%;
+    top:-200px;
+}
+
+
+#image3{
+    position:relative;
+    width:40%;
+    left:4%;
+    top:-400px;
+    background:#ffffff;
+    opacity:0.70;
+    border-radius:15px;
+    padding-top:10px;
+    padding-bottom:10px;
+}
+
+#wholepage{
+    background:#ffffff;
+    opacity:0.70;
 }

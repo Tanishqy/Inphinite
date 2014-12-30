@@ -1,0 +1,29 @@
+#navigate {
+    width: 100%;
+    background-color: #000000;
+    margin-top: 0px;
+    opacity: 0.8;
+}
+
+#navigate li {
+    display: inline;  
+    border-right: 1px;
+    border-left: 1px;
+    border-style: solid;
+    border-color: white;
+    border-top: none;
+    border-bottom: none;
+}
+
+#navigate li :hover {
+    opacity: 0.6;   
+}
+
+#navigate li a {
+    color: white;
+    margin-left:5%;
+    margin-right:5%;
+    font-size: 24px;
+    padding: 3px;
+    opacity: 1.0;
+}

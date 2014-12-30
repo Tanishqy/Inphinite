@@ -7,21 +7,17 @@
 
 #navigate li {
     display: inline;  
-    padding-top: 2%;
-    padding-bottom: 2%;
+
 }
 
-#navigate li :hover {
-    opacity: 0.6;   
-}
 
-#navigate li a {
+
+#navigate #tabs #item a {
     color: white;
-    margin-left:3%;
-    margin-right:3%;
     font-size: 24px;
     font-family: Verdana;    
-    font-weight: lighter;
-    padding-top: 30px;
+    font-weight: 100;
+    padding: 30px;
+    
 
 }

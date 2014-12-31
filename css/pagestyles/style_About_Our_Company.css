@@ -53,6 +53,7 @@ button{
 }
 
 body{
+    background-image:url('../../images/backgroundimages/gradient.jpg');
     background-image:url("../../images/backgroundimages/Building.jpg");
     background-size: 100%;
     background-repeat:repeat;
@@ -110,6 +111,7 @@ li{
 #slide{
     background-color: #c8c8c8;
 }
+
 
 #container1{
     display:inline-block;
@@ -182,4 +184,12 @@ li{
     border-radius:15px;
     padding-top:15px;
     padding-bottom:15px;
+}
+
+
+#slide2{
+    background-image:url('../../images/backgroundimages/gradient.jpg');
+    background-size: 100%;
+    background-repeat:repeat;
+    background:#000000;
 }

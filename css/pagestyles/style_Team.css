@@ -114,11 +114,8 @@ li{
     z-index:1000;
 }
 
- img.desaturate { 
-    filter: grayscale(100%); 
-    -moz-filter: grayscale(100%);
-    filter: grayscale(100%);
-}
+
+
 #image1{
     height:70px;
     width:210px;
@@ -210,4 +207,31 @@ li{
     width:65%;
     text-align: center;
 
+}
+
+
+
+
+
+
+
+
+img {
+-webkit-filter: grayscale(100%);
+z-index: -9999999999999999999999999px;
+-webkit-transition: all 0.5s ease-in-out;
+-moz-transition: all 0.5s ease-in-out;
+-o-transition: all 0.5s ease-in-out;
+-ms-transition: all 0.5s ease-in-out;
+transition: all 0.5s ease-in-out;
+}
+
+img:hover {
+-webkit-filter: grayscale(0%);
+z-index: -9999999999999999999999999px;
+-webkit-transition: all 0.5s ease-in-out;
+-moz-transition: all 0.5s ease-in-out;
+-o-transition: all 0.5s ease-in-out;
+-ms-transition: all 0.5s ease-in-out;
+transition: all 0.5s ease-in-out;
 }

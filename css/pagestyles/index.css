@@ -68,6 +68,7 @@ h1{
     top:220px;
     color:#ffffff;
     font-family: "Helvetica";
+    overflow:hidden;
 }
 
 
@@ -80,8 +81,19 @@ h1{
 #bar{
     border-top:0px;
     background:#ffffff;
-    opacity:0.60;
+    opacity:0;
     color:#000000;
     padding-top:20px;
     padding-bottom:20px;
 }
+
+
+
+
+
+
+
+
+
+
+

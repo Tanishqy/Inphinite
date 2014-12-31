@@ -10,7 +10,21 @@
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/pagestyles/index.css" rel="stylesheet">
 
+    <script>
 
+    function slidein(el){
+      var elem = document.getElementById(el);
+      elem.style.transition = "height 0.333s ease-in 0s";
+      elem.style.height = "40px";
+    }
+
+    function opacitybar(el){
+      var elem = document.getElementById(el);
+      elem.style.transition = "opacity 1s ease-in 0s";
+      elem.style.opacity = "0.6";
+    }
+
+    </script>
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -21,8 +35,8 @@
 	
 </head>
 
-
-  <body>
+<body>
+    
 <center>    
     <div id="navigate" style="margin-top:0px;"> 
             <ul id="tabs">
@@ -52,7 +66,7 @@
   </ul>
 </div>
 -->
-<div>
+<div> 
 <center>
   <h1 id="bar">
     Design. Develop. Deploy.
@@ -60,9 +74,11 @@
 </center>
 </div>
       
-      
-
-
+      <br/>
+      <button onclick="opacitybar('bar');">Fade in Bar</button>
+      <br/><br/><br/>
+      <br/><br/><br/>
+      <br/><br/><br/>
 
 
 
@@ -70,9 +86,12 @@
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="js/bootstrap.min.js"></script>
+  
+ 
 
-
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/fasw.transitions.js"></script>
+ 
 
 
 

@@ -79,13 +79,8 @@ p{
 
 
 h1{
-    font-size:72pt;
-    font-weight: 100;
-    position:relative;
-    top:40px;
-    color:#ffffff;
-    font-family:"Helvetica";
-    opacity:1;
+    
+
 }
 
 h2{
@@ -164,12 +159,6 @@ li{
     opacity:0.7;
 }
 
-#bar{
-    opacity:0.60;
-    padding-top:20px;
-    padding-bottom:20px;
-    background:#000000;
-}
 
 
 
@@ -189,7 +178,7 @@ li{
  
 .float-left{
     float:left;
-    width:50%;
+    width:33.33333%;
 }
 
 
@@ -209,6 +198,12 @@ li{
 
 }
 
+#bar1{
+    padding-top:20px;
+    padding-bottom:20px;
+    background:#CFDBC5;
+    opacity:1;
+}
 
 
 

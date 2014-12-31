@@ -112,9 +112,16 @@ input{
     background-color: black;
     opacity: 0.6;
     width: 50%;
+    padding:10px;
         
 }
 
 h1 {
  padding-top: 5%;   
+}
+
+
+#text_in_bar{
+    position:relative;
+    top:-15px;
 }

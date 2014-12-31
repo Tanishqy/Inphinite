@@ -107,3 +107,14 @@ input{
     padding-top:20px;
     padding-bottom:20px;
 }
+
+#textbackground {
+    background-color: black;
+    opacity: 0.6;
+    width: 50%;
+        
+}
+
+h1 {
+ padding-top: 5%;   
+}

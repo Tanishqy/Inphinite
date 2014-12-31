@@ -185,10 +185,12 @@ li{
 #images{
     position:relative;
     width:50%;
+    padding-bottom:50px;
 }
 
 #paragraph{
     position:relative;
     width:50%;
+    text-align: center;
 
 }

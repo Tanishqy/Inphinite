@@ -110,9 +110,19 @@ a:visited {
 /* Slide 2 */ 
 
 #slide2{
-	background-image:url('../images/footprints.png');
-	background-color:#ffffff;
-	color:#ffffff;
+	background-image: -webkit-gradient(
+	linear,
+	left top,
+	left bottom,
+	color-stop(0.16, #FFFFFF),
+	color-stop(1, #121112),
+	color-stop(1, #FFFFF7)
+);
+background-image: -o-linear-gradient(bottom, #FFFFFF 16%, #121112 100%, #FFFFF7 100%);
+background-image: -moz-linear-gradient(bottom, #FFFFFF 16%, #121112 100%, #FFFFF7 100%);
+background-image: -webkit-linear-gradient(bottom, #FFFFFF 16%, #121112 100%, #FFFFF7 100%);
+background-image: -ms-linear-gradient(bottom, #FFFFFF 16%, #121112 100%, #FFFFF7 100%);
+background-image: linear-gradient(to bottom, #FFFFFF 16%, #121112 100%, #FFFFF7 100%);
 }
 #slide2 h1 {
 	font-size: 3.8em;

@@ -63,7 +63,7 @@ body{
 p{
     color:#ffffff;
     font-size: 18pt;
-    text-shadow: 1px 1px 1px #000000;
+    
 }
 
 
@@ -194,7 +194,11 @@ li{
     background:#000000;
 }
 
+#paragraph1{
+    position:relative;
+    
 
+}
 
 
 

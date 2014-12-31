@@ -110,7 +110,8 @@ a:visited {
 /* Slide 2 */ 
 
 #slide2{
-	background-color: #ffffa3;
+	background-color: #ffffff;
+
 }
 #slide2 h1 {
 	font-size: 3.8em;
@@ -127,13 +128,20 @@ a:visited {
 	font-weight: 400;
 }
 
+#slide2 p {
+	font-size: 18pt;
+	color:#000000;
+
+
+}
+
 
 
 
 /* Slide 3 */ 
 
 #slide3{
-	background-color:#ffffff;
+	background-color:#909090;
 }
 #slide3 h1 {
 	font-size: 3.8em;
@@ -343,6 +351,11 @@ a:visited {
 }
 
 
+}
+
+#width{
+	position:relative;
+	width:80%;
 }
 
 

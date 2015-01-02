@@ -12,45 +12,16 @@
   <link rel="stylesheet" href="css/style.css" type="text/css" media="screen">
     <link href="css/bootstrap.min.css" rel="stylesheet">
 
-<!-- Stylesheets for jquery transition -->   
+    <link href="http://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css">
+<script src="js/JQuery/modernizr.custom.92416.js"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+<script src="js/JQuery/jquery.hoverTransition.js"></script>
 
-<style type="text/css">
-#wrapper {
-position: relative;
-width: 400px;
-padding: 5px;
-background: #F8F3F3;
--webkit-border-radius: 3px;
-box-shadow: 0 1px 2px rgba(0,0,0,0.07);
-}
-#wrapper a {
-display: block;
-position: relative;
-overflow: hidden;
-}
-#wrapper a img {
-display: block;
-position: relative;
-}
-.slide-item {
-position: absolute;
-width: 100%;
-height: 100%;
-background-color: rgba(255,111,162,0.9);
-}
-</style>
+
+
 
 <!-- Javascript for transitions --> 
-<script>
-$(function() {
-var options = {
-speedTime: 200,
-easing: 'ease',
-hoverDelay: 0
-};
-$(' #wrapper > a').hoverTransitionBegin(options,'div');
-});
-</script>
+
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -75,21 +46,6 @@ $(' #wrapper > a').hoverTransitionBegin(options,'div');
 </div>
 </center>
     
-<!-- 
-      <div class="dropdown">
-  <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-expanded="true">
-    <img id="image1"src="logo.png"/>
-    <span class="caret"></span>
-  </button>
-  <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
-    <li role="presentation"><a role="menuitem" tabindex="1000" href="index.html">Home</a></li>
-    <li role="presentation"><a role="menuitem" tabindex="1000" href="About_Our_Company.html">About Our Company</a></li>
-    <li class="dropdown-submenu"role="presentation"><a role="menuitem" tabindex="1000" href="Portfolio.html">Our Portfolio</a></li>
-    <li role="presentation"><a role="menuitem" tabindex="1000" href="Contact_us.html">Let's Work Together</a></li>
-    <li role="presentation"><a role="menuitem" tabindex="-1" href="Team.html">Our People</a></li>
-  </ul>
-</div>
--->
   <div class="slide" id="slide5" data-slide="1" data-stellar-background-ratio="0.5">
 
 
@@ -118,27 +74,40 @@ $(' #wrapper > a').hoverTransitionBegin(options,'div');
 <div class="container clearfix">
 <br/>
 
-<div id="wrapper"> 
-<a href="http://www.actionconference.com" title="hello world"> 
- 
-<img src="images/Portfolio/Action2014.png">
- 
-<div class="slide-item"> 
-<span class="title"> jQuery </span> 
-<span class="author"> jQuery Plugins </span> 
-</div>
- 
-</a> 
-</div>
 
 
 
+<!-- Action 2014 Conference -->
 
-<div id="containerx" >  
-  <a href="http://actionconference.com" id="home">
-    <img id="menuImg" src="images/Portfolio/Action2014.png" alt="logo" onmouseover="onHover();" onmouseout="offHover();" />
-  </a>
-</div>
+
+<div id="wrapper"> <a href="#" title="hello" class="div-img"> <img src="images/Portfolio/Action2014.png">
+<div class="slide-item"> <span class="title"> Action2014 Conference </span> <span class="author"> An entrepreneurship based conference in Burlington Ontario, InPhinite Design developed the website for this conference. </span> </div>
+</a> </div>
+
+<!-- Script for Action 2014 Conference -->
+<script>
+$(function() {
+    var options = {speedTime:300};
+    $(' #wrapper > a').hoverTransitionBegin(options,'div');
+  });
+</script>
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-36251023-1']);
+  _gaq.push(['_setDomainName', 'jqueryscript.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+
+
 
 
    

@@ -23,6 +23,10 @@ a:visited {
 	text-decoration: none;
 }
 
+hr{
+	size:2px;
+	color:black;
+}
 
 
 
@@ -111,6 +115,7 @@ a:visited {
 
 #slide2{
 	background-color: #ffffff;
+	opacity:0.95;
 
 }
 #slide2 h1 {
@@ -131,6 +136,7 @@ a:visited {
 #slide2 p {
 	font-size: 18pt;
 	color:#000000;
+	font-weight:300;
 
 
 }
@@ -354,10 +360,10 @@ a:visited {
 }
 
 #width{
+	display:inline-block;
 	position:relative;
-	width:80%;
+	width:50%
 }
-
 
 
 

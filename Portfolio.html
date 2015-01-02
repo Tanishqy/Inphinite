@@ -12,6 +12,14 @@
   <link rel="stylesheet" href="css/style.css" type="text/css" media="screen">
     <link href="css/bootstrap.min.css" rel="stylesheet">
 
+    <script>
+     function opacitybar(el){
+      var elem = document.getElementById(el);
+      elem.style.transition = "opacity 1s ease-in 0s";
+      elem.style.opacity = "0.6";
+    }
+    </script>
+
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -30,7 +38,7 @@
   </head>
 
 
-  <body>
+  <body onLoad="opacitybar('bar3');">
 <center>
 <div id="navigate"> 
     <ul id="tabs">
@@ -73,7 +81,7 @@
 
 <center>
   <div id="bar2">
-  <p style="color:#000000; text-align:justify;">At InPhinite Design our philosophy is simple, great customer interaction can make or break a company - our services provide you with the ability to make it.</p>
+  <p id = "bar3" style="color:#000000; text-align:justify;">At InPhinite Design our philosophy is simple, great customer interaction can make or break a company - our services provide you with the ability to make it.</p>
 </div>
 <br/><br/><br/><br/>
 <br/><br/><br/><br/>

@@ -81,7 +81,7 @@ h2{
 
     padding-top:20px;
     position:relative;
-    color:#505050;
+    color:#000000;
 
     
 }
@@ -155,4 +155,17 @@ img{
     color:#000000;
     padding-top:20px;
     padding-bottom:20px;
+}
+
+
+#bar2{
+    background:#ffffff;
+    opacity:0.60;
+    color:#000000;
+    padding-top:20px;
+    padding-bottom:20px;
+    position:relative;
+    width:50%;
+    padding-left:10px;
+    padding-right:10px;
 }

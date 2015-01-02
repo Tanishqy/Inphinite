@@ -8,10 +8,21 @@
 
     <link href="css/pagestyles/global.css" rel="stylesheet">
     <link href="css/pagestyles/style_Portfolio.css" rel="stylesheet">
-  
   <link rel="stylesheet" href="css/grid.css" type="text/css" media="screen">
   <link rel="stylesheet" href="css/style.css" type="text/css" media="screen">
     <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <script>
+     function onHover()
+{
+    $("#menuImg").attr('src', 'images/Portfolio/Action2014_text.png');
+} 
+
+     function offHover()
+{
+    $("#menuImg").attr('src', 'images/Portfolio/Action2014.png');
+}
+    </script>
 
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -20,10 +31,11 @@
       <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
+      
   </head>
 
 
-  <body>
+  <body onLoad="opacitybar('bar3');">
 <center>
 <div id="navigate"> 
     <ul id="tabs">
@@ -54,43 +66,49 @@
 -->
   <div class="slide" id="slide5" data-slide="1" data-stellar-background-ratio="0.5">
 
+
+<br/><br/><br/><br/>
+<br/><br/>
+      
       <center>
       <h1 id="bar">Our Work</h1>
     </center>
 <br/><br/><br/><br/>
+<br/><br/><br/><br/>
+
+<center>
+  <div id="bar2">
+  <p id = "bar3" style="color:#000000; text-align:justify;">At InPhinite Design our philosophy is simple, great customer interaction can make or break a company - our services provide you with the ability to make it.</p>
+</div>
+<br/><br/><br/><br/>
+<br/><br/><br/><br/>
+
+ <div class="slide" id="slide2" data-slide="1" data-stellar-background-ratio="0.5">
 
 
-<h2>iOS / Android</h2>
-    <div class="container clearfix">
-    <br/><br/><br/>
-    <div id="containerx">
-    <a href="https://angularjs.org"><img src="images/libraries/angular.png"></a>
-    </div>
 
-    <div id="containerx">
-    <a href="http://getbootstrap.com"><img src="images/libraries/bootstrap.png"></a>
-    </div>
-
-    <div id="containerx">
-    <a href="http://www.mongodb.org"><img src="images/libraries/mongodb.png"></a>
-    </div>
-  </div>
-<h2>Web</h2>
+ <div class="slide" id="slide2" data-slide="1" data-stellar-background-ratio="0.5">
+<h2 style="color:#000000;">Web</h2>
 <div class="container clearfix">
 <br/>
-    <div id="containerx">
-    <a href="http://actionconference.com"><img src="images/Portfolio/Action2014.png"></a>
-    </div>
 
-    <div id="containerx">
-    <a href="http://jquery.com"><img src="images/Portfolio/SolarCar.png"></a>
-    </div>
+<div id="containerx" >  
+  <a href="http://actionconference.com" id="home">
+    <img id="menuImg" src="images/Portfolio/Action2014.png" alt="logo" onmouseover="onHover();" onmouseout="offHover();" />
+  </a>
+</div>
 
-    <div id="containerx">
-    <a href="https://www.fiscalnote.com"><img src="images/libraries/FN.png"></a>
-    </div>
+
+   
+
+  
+</div>
+
+    
 <br/><br/><br/>
-    </div>
+
+      
+      </div>
   </div>
 
 
@@ -107,8 +125,5 @@
   <script type="text/javascript" src="js/scripts.js"></script>
 <script src="//code.jquery.com/jquery-1.11.2.min.js"></script>
 <script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-
-
-
   </body>
 </html>

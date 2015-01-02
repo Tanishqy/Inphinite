@@ -140,22 +140,19 @@ and (orientation : portrait) {
 
 
 
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px) {
 
-
-
-
-
-
-@media screen and (max-width: 1024px) {
 #navigate {
-    width:100%;
+    width: 100%;
     background-color: #000000;
     margin-top: 0px;
     opacity: 0.7;
     font-family: "Helvetica";
 
 }
-
 
 #navigate #tabs #item {
     display: inline; 
@@ -167,24 +164,25 @@ and (orientation : portrait) {
 
 #navigate #tabs #item a {
     color: white;
-    font-size: 16px;
+    font-size: 8px;
     font-family: "Helvetica";    
     padding: 2%;
     font-weight:100;
+}    
 }
 
+/* Smartphones (landscape) ----------- */
+@media only screen 
+and (min-width : 321px) {
 
-@media screen and (max-width: 480px) {
 #navigate {
-    width:100%;
+    width: 100%;
     background-color: #000000;
     margin-top: 0px;
     opacity: 0.7;
     font-family: "Helvetica";
-    position: static;
-    height: 10%;
-}
 
+}
 
 #navigate #tabs #item {
     display: inline; 
@@ -196,10 +194,43 @@ and (orientation : portrait) {
 
 #navigate #tabs #item a {
     color: white;
-    font-size: 10px;
+    font-size: 8px;
     font-family: "Helvetica";    
     padding: 2%;
     font-weight:100;
-    padding-top: 4%;
-    padding-top: 4%;
+}    
 }
+
+/* Smartphones (portrait) ----------- */
+@media only screen 
+and (max-width : 320px) {
+
+#navigate {
+    width: 100%;
+    background-color: #000000;
+    margin-top: 0px;
+    opacity: 0.7;
+    font-family: "Helvetica";
+
+}
+
+#navigate #tabs #item {
+    display: inline; 
+}
+
+#navigate #tabs #items :a ¨{
+    opacity: 0.7;   
+}
+
+#navigate #tabs #item a {
+    color: white;
+    font-size: 8px;
+    font-family: "Helvetica";    
+    padding: 2%;
+    font-weight:100;
+}    
+}
+
+
+
+

@@ -13,11 +13,15 @@
     <link href="css/bootstrap.min.css" rel="stylesheet">
 
     <script>
-     function opacitybar(el){
-      var elem = document.getElementById(el);
-      elem.style.transition = "opacity 1s ease-in 0s";
-      elem.style.opacity = "0.6";
-    }
+     function onHover()
+{
+    $("#menuImg").attr('src', 'images/Portfolio/Action2014_text.png');
+} 
+
+     function offHover()
+{
+    $("#menuImg").attr('src', 'images/Portfolio/Action2014.png');
+}
     </script>
 
 
@@ -28,13 +32,6 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
       
-         <script> 
-             function opacitybar(el){
-      var elem = document.getElementById(el);
-      elem.style.transition = "opacity 1s ease-in 0s";
-      elem.style.opacity = "0.6";
-    }
-             </script>
   </head>
 
 
@@ -94,18 +91,17 @@
 <h2 style="color:#000000;">Web</h2>
 <div class="container clearfix">
 <br/>
-    <div id="containerx">
-    <a href="http://actionconference.com"><img src="images/Portfolio/Action2014.png"></a>
-    </div>
 
-    <div id="containerx">
-    <a href="http://jquery.com"><img src="images/Portfolio/SolarCar.png"></a>
-    </div>
+<div id="containerx" >  
+  <a href="http://actionconference.com" id="home">
+    <img id="menuImg" src="images/Portfolio/Action2014.png" alt="logo" onmouseover="onHover();" onmouseout="offHover();" />
+  </a>
+</div>
 
-    <div id="containerx">
-    <a href="https://www.fiscalnote.com"><img src="images/libraries/FN.png"></a>
 
-    </div>
+   
+
+  
 </div>
 
     

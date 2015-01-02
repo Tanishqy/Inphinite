@@ -213,7 +213,9 @@ li{
 }
 
 #entry {
-    font-size: 18pt;   
+    font-size: 18pt; 
+    font-family: 'helvetica';
+    font-weight: 100;
 }
 
 
@@ -239,20 +241,6 @@ transition: all 0.25s ease-in-out;
 
 
 
-/* iPads (portrait and landscape) ----------- */
-@media only screen 
-and (min-device-width : 768px) 
-and (max-device-width : 1024px) {
-
-#us {
-     font-size: 60;
-    
-    }
-
-
-}
-
-
 
 /* iPads (portrait and landscape) ----------- */
 @media only screen 
@@ -267,10 +255,10 @@ and (max-device-width : 1024px) {
 }
 
 #entry {
-    position:relative;
-    width:65%;
-    text-align: center;
-    font-size: 12pt;
+    font-size: 14pt; 
+    font-family: 'helvetica';
+    font-weight: 100;
+
 }
 }
 

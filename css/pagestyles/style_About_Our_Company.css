@@ -233,25 +233,23 @@ li{
 
 #images{
     position:relative;
-    width:80%;
-    padding-bottom:50px;
-    padding-top:50px;
-    padding-right:50px;
+    width:70%;
+
 
 }
 
 #paragraph{
     position:relative;
-    width:85%;
-    text-align: justify;
+    width:90%;
+    text-align: center;
 }
 
 
 #paragraph1{
     position:relative;
     width:90%;
-    font-size:24pt;
-    font-weight:300;
+    text-align:justify;
+    padding-top:5%;
 }
 
 

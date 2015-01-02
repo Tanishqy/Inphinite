@@ -78,10 +78,6 @@ p{
 
 
 
-h1{
-    
-
-}
 
 h2{
     font-family:"Helvetica";
@@ -201,7 +197,6 @@ li{
     position:relative;
     width:65%;
     text-align: center;
-
 }
 
 #bar1{
@@ -212,9 +207,14 @@ li{
 }
 
 
+#us {
+    font-size: 72pt;
+    color: white;
+}
 
-
-
+#entry {
+    font-size: 18pt;   
+}
 
 
 img {
@@ -235,4 +235,63 @@ z-index: -9999999999999999999999999;
 -o-transition: all 0.25s ease-in-out;
 -ms-transition: all 0.25s ease-in-out;
 transition: all 0.25s ease-in-out;
+}
+
+
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) {
+
+#us {
+     font-size: 60;
+    
+    }
+
+
+}
+
+
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) {
+
+#us {
+    font-size:50pt;
+    font-weight: 100;
+    color:white;
+    font-family:"Helvetica";
+}
+
+#entry {
+    position:relative;
+    width:65%;
+    text-align: center;
+    font-size: 12pt;
+}
+}
+
+
+/* iPads (landscape) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : landscape) {
+
+#us {
+    font-size:60pt;
+    font-weight: 100;
+    color:white;
+    font-family:"Helvetica";
+}
+
+#entry {
+    position:relative;
+    width:65%;
+    text-align: center;
+    font-size: 12pt;
+}
 }

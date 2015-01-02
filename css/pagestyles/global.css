@@ -164,7 +164,7 @@ and (max-device-width : 480px) {
 
 #navigate #tabs #item a {
     color: white;
-    font-size: 8px;
+    font-size: 7px;
     font-family: "Helvetica";    
     padding: 2%;
     font-weight:100;
@@ -226,7 +226,7 @@ and (max-width : 320px) {
 
 #navigate #tabs #item a {
     color: white;
-    font-size: 8px;
+    font-size: 7px;
     font-family: "Helvetica";    
     padding: 2%;
     font-weight:100;

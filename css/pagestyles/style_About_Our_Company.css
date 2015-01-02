@@ -254,3 +254,35 @@ li{
     font-weight:300;
 }
 
+
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) {
+
+h1{
+    font-size:50pt;
+    font-weight: 100;
+    position:relative;
+    top:90px;
+    color:#ffffff;
+    font-family:"Helvetica";
+}
+}
+
+
+/* iPads (landscape) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : landscape) {
+h1{
+    font-size:60pt;
+    font-weight: 100;
+    position:relative;
+    top:90px;
+    color:#ffffff;
+    font-family:"Helvetica";
+}
+}

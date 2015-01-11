@@ -24,8 +24,9 @@ a:visited {
 }
 
 hr{
-	size:2px;
+	height:2px;
 	color:black;
+
 }
 
 
@@ -116,6 +117,7 @@ hr{
 #slide2{
 	background-color: #ffffff;
 	opacity:0.95;
+	
 
 }
 #slide2 h1 {
